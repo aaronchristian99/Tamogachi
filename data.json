@@ -1,0 +1,49 @@
+{
+    "petMood":[
+        {"mood": "Happy", "moodPhrase": "I'm very happy master Owner."},
+        {"mood": "Happy", "moodPhrase": "Master Owner, I'm on cloud nine."},
+        {"mood": "Happy", "moodPhrase": "Master Owner, You are as beautiful as a rose."},
+        {"mood": "Happy", "moodPhrase": "Master Owner, I'm over the moon."},
+        {"mood": "Happy", "moodPhrase": "This is the happiest day of my life, master Owner"},
+        {"mood": "Sad", "moodPhrase": "I'm sad, master Owner."},
+        {"mood": "Sad", "moodPhrase": "I'm despressed, master Owner."},
+        {"mood": "Sad", "moodPhrase": "Give me some food, master Owner."},
+        {"mood": "Sad", "moodPhrase": "Let me cry, master Owner."},
+        {"mood": "Sad", "moodPhrase": "My heart is hurting, master Owner."},
+        {"mood": "Angry", "moodPhrase": "Feel my wrath, master Owner."},
+        {"mood": "Angry", "moodPhrase": "Master Owner, I'm agry with you."},
+        {"mood": "Angry", "moodPhrase": "Master Owner give me more food."},
+        {"mood": "Angry", "moodPhrase": "I'm very angry with you, master Owner."},
+        {"mood": "Angry", "moodPhrase": "Master Owner, I'm ver furiuos with you as you are not playing with me."},
+        {"mood": "Jokey", "moodPhrase": "Ha ha ha, master Owner you are so funny."},
+        {"mood": "Jokey", "moodPhrase": "Master Owner where do vampire college student go for shopping clothes? The answer is - Forever 21."},
+        {"mood": "Jokey", "moodPhrase": "Master Owner what do snowmen order from fast food restuarant? The answer is - An iceberg-er and fries."},
+        {"mood": "Jokey", "moodPhrase": "Master Owner what do snowmen take when they are not feeling well? The answer is - They take a chill pill."},
+        {"mood": "Jokey", "moodPhrase": "Master Owner, Never trust math teachers who use graph paper. They are always plotting something."}
+    ],
+
+    "petFood":[
+        {"food": "Cereal", "foodPoints": 30, "foodChance": 0.7}, 
+        {"food": "Apple", "foodPoints": 25, "foodChance": 0.6}, 
+        {"food": "Chicken", "foodPoints": 30, "foodChance": 0.5},
+        {"food": "Spinach", "foodPoints": 20, "foodChance": 0.2},
+        {"food": "Orange", "foodPoints": 20, "foodChance": 0.7},
+        {"food": "Pizza", "foodPoints": 10, "foodChance": 0.3},
+        {"food": "Broccolli", "foodPoints": 35, "foodChance": 0.9}, 
+        {"food": "Pasta", "foodPoints": 15, "foodChance": 0.5},
+        {"food": "Potato", "foodPoints": 18, "foodChance": 0.7}, 
+        {"food": "Pancake", "foodPoints": 12, "foodChance": 0.6}
+    ],
+    "compliments": [
+        "Owner, you are so kind.",
+        "Owner you are amazing.",
+        "Owner you make good food.",
+        "Owner I see you very intelligent.",
+        "You Are very smart, master Owner.",
+        "I love you, master Owner.",
+        "You are handsome, master Owner.",
+        "You are looking great, master Owner.",
+        "This clothes suit my master Owner very well.",
+        "Wow, master Owner you are looking great."
+    ]
+}

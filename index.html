@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ozl7hsq.css">
+  <title>Tamogachi</title>
+</head>
+<body>
+  <main>
+    <h2 id="chname">Hello, I'm ChunChunmaru</h2>
+    <section class="inputGetter">
+      <div class="nameGetter">
+        <label class="title" for="name">Enter Your Name: </label>
+        <input type="text" id="name" name="name"/>
+        <input type="submit" id="submit" placeholder="Submit"/>
+      </div>
+      <div class="output">
+        <label class="title" for="foodPoints">Food Points: </label>
+        <input type="text" id="foodPoints" name="foodPoints"/>
+      </div>
+    </section>
+
+    <section class="textArea">
+      <textarea readonly id="gameActions" rows="5" cols="60"></textarea>
+    </section>
+    
+    <article class="gameObjects">
+      <section class="basicButtons">
+        <object data="images/button.svg" type="image/svg+xml" id="btn5" class="bStyle start"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn6" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn7" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn8" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn9" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn10" class="bStyle"></object>
+      </section>
+  
+      <section class="tamoLocation">
+        <object data="images/character.svg" type="image/svg+xml" id="tamo"></object>
+      </section>
+      
+      <section class="actionButtons">
+        <object data="images/button.svg" type="image/svg+xml" id="btn1" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn2" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn3" class="bStyle"></object>
+        <object data="images/button.svg" type="image/svg+xml" id="btn4" class="bStyle"></object>
+      </section>
+    </article>
+    
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/MotionPathPlugin.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

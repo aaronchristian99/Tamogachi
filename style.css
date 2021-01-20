@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+width: 100vw;
+height: 100vh;
+background-image: url(./images/background.svg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow-x: hidden;
+}
+
+#chname {
+font-family: blakely,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 4rem;
+text-align: center;
+padding-top: 20px;
+color: #000;
+}
+
+.inputGetter {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 30px;
+height: 50px;
+}
+
+.nameGetter, .output {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+height: 50px;
+}
+
+.title {
+font-size: 2rem;
+margin-right: 20px;
+font-family: blakely,sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 50px;
+}
+
+#name, #foodPoints {
+width: 100px;
+height: 30px;
+margin-top: 10px;
+margin-right: 20px;
+font-size: 1.5rem;
+margin-right: 20px;
+font-family: blakely,sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+#submit {
+width: 100px;
+height: 30px;
+margin-top: 10px;
+background-color: #17638a;
+border: none;
+color: #fff;
+}
+
+.textArea {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 30px;
+}
+
+#gameActions {
+resize: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-shadow: 1px 1px 1px #999;
+font-size: 1.5rem;
+margin-right: 20px;
+font-family: blakely,sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.gameObjects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 50vh;
+}
+
+.basicButtons {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 30vw;
+height: 50vh;
+padding-left: 40px;
+}
+
+.tamoLocation {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 50vw;
+height: 50vh;
+}
+
+#tamo {
+width: 40vw;
+margin: 0px auto 0px auto;
+height: 50vh;
+}
+
+.actionButtons {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 30vw;
+height: 50vh;
+}
+
+.bStyle {
+width: 8vw;
+cursor: pointer;
+}
+
+/* Button Style */
+
+.baseStyle {
+fill: #f8b4c0;
+stroke: #231f20;
+stroke-miterlimit: 10;
+stroke-width: 0.25px;
+}
+
+.btnStyle {
+fill: #231f20;
+}
+
+#happy, #sad, #jokey, #angry, #start, #restart, #drinkCoffee, #drinkBeer, #eatFood, #compliment, #reset {
+  visibility: hidden;
+}
+
+/* Tamogachi Style */
+
+.cls-1, .cls-7, .cls-8 {
+fill: none;
+}
+
+.cls-2 {
+fill: #2fad60;
+}
+
+.cls-3 {
+fill: #231f20;
+}
+
+.cls-4 {
+fill: #dd8a5d;
+}
+
+.cls-5, .cls-9 {
+fill: #fff;
+}
+
+.cls-5, .cls-7, .cls-8, .cls-9 {
+stroke: #231f20;
+stroke-miterlimit: 10;
+}
+
+.cls-5 {
+stroke-width: 0.25px;
+}
+
+.cls-6 {
+fill: #bb3d4b;
+}
+
+.cls-7 {
+stroke-width: 0.75px;
+}
+
+#starvedEyes, #starvedEyesTwo {
+visibility: hidden;
+}
+
+#angryEye {
+visibility: hidden;
+}
